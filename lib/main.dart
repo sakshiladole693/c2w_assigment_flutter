@@ -1,4 +1,5 @@
 import 'package:c2w_assignment_task/day01/FirstTaskPage.dart';
+import 'package:c2w_assignment_task/day02/SecondTaskPage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -47,6 +48,7 @@ class _TaskAppState extends State<TaskApp>{
             child : Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                //Button for day 01 task
                 SizedBox(
                   width: 330,
                   child : ElevatedButton(
@@ -58,6 +60,21 @@ class _TaskAppState extends State<TaskApp>{
                     },
                     child: Text(
                       "Day 01(14/04/2025)",
+                    ),
+                  ),
+                ),
+                //Button for day 02 task
+                SizedBox(
+                  width: 330,
+                  child : ElevatedButton(
+                    onPressed: (){
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => SecondTaskPage()),
+                      );
+                    },
+                    child: Text(
+                      "Day 02(21/04/2025)",
                     ),
                   ),
                 ),
