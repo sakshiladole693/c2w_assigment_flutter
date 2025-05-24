@@ -6,6 +6,7 @@ import 'package:c2w_assignment_task/day06/SixthTaskPage.dart';
 import 'package:flutter/material.dart';
 
 import 'day05/FifthTaskPage.dart';
+import 'day07/SeventhTaskPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -142,6 +143,22 @@ class _TaskAppState extends State<TaskApp>{
                     },
                     child: Text(
                       "Day 06(05/05/2025)",
+                    ),
+                  ),
+                ),
+
+                //Button for day 07 task
+                SizedBox(
+                  width : 330,
+                  child : ElevatedButton(
+                    onPressed: (){
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => SeventhTaskPage()),
+                      );
+                    },
+                    child: Text(
+                      "Day 07(06/05/2025)",
                     ),
                   ),
                 ),
