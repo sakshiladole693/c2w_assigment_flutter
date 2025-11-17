@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  google_fonts: ^6.3.2
+  svg_flutter: ^0.0.1
 
 dev_dependencies:
   flutter_test:
@@ -21,3 +23,4 @@ flutter:
     - assets/task07/
     - assets/task08/
     - assets/task09/
+    - assets/task14/svg/

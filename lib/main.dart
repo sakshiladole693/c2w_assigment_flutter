@@ -7,6 +7,11 @@ import 'package:c2w_assignment_task/task06/vegetable_info_page.dart';
 import 'package:c2w_assignment_task/task07/iced_mocha_description_page.dart';
 import 'package:c2w_assignment_task/task08/home_description_page.dart';
 import 'package:c2w_assignment_task/task09/property_details_page.dart';
+import 'package:c2w_assignment_task/task10/flag.dart';
+import 'package:c2w_assignment_task/task11/basic_employee_details.dart';
+import 'package:c2w_assignment_task/task12/basic_listView.dart';
+import 'package:c2w_assignment_task/task13/textfield_demo.dart';
+import 'package:c2w_assignment_task/task14/course_app.dart';
 import 'package:flutter/material.dart';
 import 'package:c2w_assignment_task/day01/FirstTaskPage.dart';
 import 'package:c2w_assignment_task/day02/SecondTaskPage.dart';
@@ -56,6 +61,11 @@ class TaskApp extends StatelessWidget {
     {"title": "Iced Mocha Description Page", "page": IcedMochaPage()},
     {"title": "Home Description Page", "page": HomeDescriptionPage()},
     {"title": "Property Details Page", "page": PropertyDetailsPage()},
+    {"title": "Indian Flag", "page": IndianFlagApp()},
+    {"title": "Basic Employee App", "page": EmpDetails()},
+    {"title": "Basic List View", "page": BasicListViewDemo()},
+    {"title": "ListView Builder", "page": TextFieldDemo()},
+    {"title": "Course App UI", "page": CourseApp()},
   ];
 
   @override
